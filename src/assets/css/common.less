@@ -1,0 +1,124 @@
+/*
+ * @Author: Yin Xiang Zheng
+ * @LastEditors: Yin Xiang Zheng
+ * @LastEditTime: 2020-07-28 18:04:46
+ */
+ @import './antd-config';
+
+
+ body,
+ div,
+ dl,
+ dt,
+ dd,
+ ul,
+ ol,
+ li,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ pre,
+ code,
+ form,
+ fieldset,
+ legend,
+ input,
+ button,
+ textarea,
+ p,
+ blockquote,
+ th,
+ td {
+     margin: 0;
+     padding: 0;
+ }
+
+ html {
+     height: 100%;
+ }
+
+ body {
+     font-family: "ZenOpenSansSelf, Microsoft Yahei, PingFangSC-Regular,PingFang SC";
+     height: 100%;
+     font-size: 12px;
+     color: @text-color;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ hr,
+ b,
+ strong,
+ th {
+     font-family: "ZenOpenSansSelf, OpenSans-Bold,OpenSans, PingFangSC-Bold,PingFang SC";
+ }
+
+ ul,
+ li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+ .pointer {
+     cursor: pointer;
+ }
+
+ .blue {
+     color: @primary-color;
+ }
+
+ .clearfix::after,
+ .clearfix::before {
+     clear: both;
+     content: "";
+     display: block;
+     height: 0;
+     visibility: hidden;
+     line-height: 0;
+ }
+
+ .zen-table-content {
+     border-radius: 4px;
+     margin: 24px;
+ }
+
+ .zen-table-content_search {
+     padding: @space*3px @space*3px 0;
+     background: #fff;
+ }
+
+ .zen-table-content_search .zen-form--small .ant-form-item {
+     margin: 0
+ }
+
+ .ant-calendar-range-picker-separator {
+     margin: 0px 8px;
+ }
+
+ .ant-table-middle > .ant-table-content > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-middle > .ant-table-content > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td, .ant-table-middle > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-tbody > tr > td{
+     padding:8px;
+ }
+
+ .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+     padding:8px;
+ }
+ .ant-select-disabled {
+     .ant-select-selection {
+         user-select: auto !important
+     }
+ }
+
+ .zen-search-content {
+     padding: 8px 24px;
+     background: white;
+ }
